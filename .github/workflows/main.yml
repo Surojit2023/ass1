@@ -30,7 +30,7 @@ jobs:
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: myapp_project1
-        IMAGE_TAG: v0.1
+        IMAGE_TAG: v0.2
       run: |
       
         # Docker build
@@ -42,7 +42,7 @@ jobs:
       env:
         ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
         ECR_REPOSITORY: mysqldb
-        IMAGE_TAG: v0.1
+        IMAGE_TAG: v0.2
       run: |
       
         # Docker building
